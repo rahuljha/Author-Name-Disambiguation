@@ -2,6 +2,9 @@
 
 # Read evaluation file for a single cluster and create author collaboration graph
 # Print out in edge-edge format
+
+my $BASE_DIR = "./files";
+
 my $all_authors = "/home/rahuljha/author_name_normalization/OA_authors.txt";
 my $eval_dir = "/home/rahuljha/author_name_normalization/evaluation_data";
 my %id_hash = ();
@@ -9,9 +12,9 @@ my %id_hash = ();
 #$ARGV[0] =~ m/.*\/(.*)\.txt$/;
 my $key = shift;
 
-open GOLD, ">$key.gold" or die $!;
-open GRAPH, ">$key.graph" or die $!;
-open DATA, ">$key.data" or die $!;
+open GOLD, ">$BASE_DIR/$key.gold" or die $!;
+open GRAPH, ">$BASE_DIR/$key.graph" or die $!;
+open DATA, ">$BASE_DIR/$key.data" or die $!;
 
 open READ_FILE, "$eval_dir/$key.txt" or die $!;
 

@@ -5,10 +5,15 @@ use warnings;
 
 my %cids = ();
 
-my $cnt = 1;
-my $CUTOFF = 60;
+my $file_to_cluster = shift;
+open FILE, $file_to_cluster or die $!;
 
-while(<>) {
+my $CUTOFF = shift;
+
+my $cnt = 1;
+
+
+while(<FILE>) {
     chomp($_);
     
     my ($a1, $a2, $ht) = split(/\s+/, $_);

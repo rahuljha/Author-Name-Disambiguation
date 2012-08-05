@@ -3,9 +3,10 @@
 use strict;
 use warnings;
 
-my $auth_key = shift;
+my $graph_file = shift;
+my $data_file = shift;
 
-open GRAPH, "./files/".$auth_key.".graph" or die $!;
+open GRAPH, $graph_file or die $!;
 
 my $graph = {};
 
@@ -24,11 +25,23 @@ while(<GRAPH>) {
 
 close GRAPH;
 
-my @aids = `cat ./files/$auth_key.data | awk -F " ::: " '{print \$1}'`;
+#print "187 -- 188: ".get_sampled_hitting_time("187", "188", $graph, $NUM_SAMPLES)."\n";
+#print "392 -- 394: ".get_sampled_hitting_time("392", "394", $graph, $NUM_SAMPLES)."\n";
+
+my @aids = `cat $data_file | awk -F " ::: " '{print \$1}'`;
 map(chomp($_), @aids);
 
 for(my $i = 0; $i <= $#aids; $i++) {
     for(my $j = $i+1; $j <= $#aids; $j++) {
+
+	# if(($aids[$i] eq "392" && $aids[$j] eq "404") || ($aids[$i] eq "404" && $aids[$j] eq "392")) {
+	#     print "here";
+	# }
+
+	# if(($aids[$i] eq "187" && $aids[$j] eq "193") || ($aids[$i] eq "193" && $aids[$j] eq "187")) {
+	#     print "here";
+	# }
+
 	my $ht = get_sampled_hitting_time($aids[$i], $aids[$j], $graph, $NUM_SAMPLES);
 	print $aids[$i]." ".$aids[$j]." ".$ht."\n";
     }
@@ -54,16 +67,22 @@ sub get_hitting_time {
     my $graph = shift;
     my $iter = shift;
 
+    print "$source -> ";
+
     if($source eq $target) {
+	print "FOUND\n";
 	return $iter;
     } 
 
     if($iter > $MAX_ITER) {
+	print "FAIL_MAXED\n";
 	return $MAX_ITER;
     }
 
     my $potential_hops = $graph->{$source};
+
     if(!defined $potential_hops) {
+	print "FAIL_NOHOP\n";
 	return $MAX_ITER;
     }
     my $num_hops = scalar(@{$potential_hops});

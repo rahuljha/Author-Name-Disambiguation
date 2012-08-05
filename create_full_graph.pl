@@ -21,11 +21,12 @@ my $email_ids = {};
 my $key = shift;
 
 
-open GOLD, ">$BASE_DIR/$key.gold" or die $!;
-open GRAPH, ">$BASE_DIR/$key.graph" or die $!;
-open DATA, ">$BASE_DIR/$key.data" or die $!;
-open AFFS, ">$BASE_DIR/$key.affids" or die $!;
-open EMAILS, ">$BASE_DIR/$key.emailids" or die $!;
+open GOLD, ">$BASE_DIR/$key.fullgold" or die $!;
+open GRAPH, ">$BASE_DIR/$key.fullgraph" or die $!;
+open DATA, ">$BASE_DIR/$key.fulldata" or die $!;
+open AFFS, ">$BASE_DIR/$key.fullaffids" or die $!;
+open EMAILS, ">$BASE_DIR/$key.fullemailids" or die $!;
+
 open READ_FILE, "$eval_dir/$key.txt" or die $!;
 
 my $cnt = 1;
@@ -105,6 +106,9 @@ while(<READ_FILE>) {
     }  
 }
 
+close AFFS;
+
+
 # merge affiliation nodes based on shingling
 my @aff_ids = keys %$aff_shingles;
 for(my $i = 0; $i <= $#aff_ids; $i++) {
@@ -113,6 +117,7 @@ for(my $i = 0; $i <= $#aff_ids; $i++) {
 	my $aff2 = $aff_ids[$j];
 
 	my $jc = get_jaccard_coeff($aff_shingles->{$aff1}, $aff_shingles->{$aff2});
+
 	if($jc > $JC_CUTOFF) {
 	    print GRAPH "$aff1 === $aff2\n";
 	}
