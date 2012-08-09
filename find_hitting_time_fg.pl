@@ -25,8 +25,7 @@ while(<GRAPH>) {
 
 close GRAPH;
 
-#print "43 -- 61: ".get_sampled_hitting_time("43", "61", $graph, $NUM_SAMPLES)."\n";
-#print "202 -- 208: ".get_sampled_hitting_time("202", "208", $graph, $NUM_SAMPLES)."\n";
+#print "1206 -- 1223: ".get_sampled_hitting_time("1206", "1223", $graph, $NUM_SAMPLES)."\n";
 
 my @aids = `cat $data_file | awk -F " ::: " '{print \$1}'`;
 map(chomp($_), @aids);
@@ -55,7 +54,8 @@ sub get_sampled_hitting_time {
     
     my $aht = 0;
     for(my $i = 0; $i < $num_samples; $i++) {
-	$aht += get_hitting_time($a1, $a2, $graph, 1);
+	$aht += get_hitting_time($a1, $a2, $graph, 1, 0);
+#	print "--> Got $aht <--\n";
     }
 
     return $aht/$num_samples;
@@ -66,16 +66,17 @@ sub get_hitting_time {
     my $target = shift;
     my $graph = shift;
     my $iter = shift;
+    my $affs = shift;
 
 #    print "$source -> ";
 
     if($source eq $target) {
-#	print "FOUND\n";
+#	print "FOUND (after $iter)\n";
 	return $iter;
     } 
 
     if($iter > $MAX_ITER) {
-#	print "FAIL_MAXED\n";
+#	print "FAIL_MAXED\n ($MAX_ITER)";
 	return $MAX_ITER;
     }
 
@@ -88,5 +89,15 @@ sub get_hitting_time {
     my $num_hops = scalar(@{$potential_hops});
     my $hop = $potential_hops->[rand($num_hops)];
 
-    return 1 + get_hitting_time($hop, $target, $graph, $iter+1);
+    my $len = 1;
+
+    # $data_file =~ m/^.*\/(.*).fulldata$/;
+    # my $key = $1;
+    # my $res = `cat ./files/$key.fullaffids | grep "^$hop :::"`;
+    # chomp($res);
+    # if($res ne "") {
+    # 	$affs += 1;
+    # }
+
+    return $len + get_hitting_time($hop, $target, $graph, $iter+1, $affs);
 }

@@ -1,0 +1,99 @@
+1 ::: jykim ::: 134795 ::: Kim ::: Yee-Jeong :::  ::: Department of Pathology, National Health Insurance Cooperation Ilsan Hospital, Goyang, Korea.
+1 ::: jykim ::: 274499 ::: Kim ::: Yee-Jeong :::  ::: Department of Pathology, National Health Insurance Cooperation Ilsan Hospital, Goyang, Korea.
+2 ::: jykim ::: 306915 ::: Kim ::: Ye-Ji :::  ::: Department of Pathology, Inha University Hospital, Inha University Medical College, Incheon, Korea.
+3 ::: jykim ::: 136648 ::: Kim ::: Yeo Joo :::  ::: Department of Internal Medicine, Soonchunhyang University College of Medicine, Chunan, Korea.
+4 ::: jykim ::: 172351 ::: Kim ::: Yeon-Jeong :::  ::: Laboratory of Immunology, Institute of Pharmaceutical Sciences, College of Pharmacy, Seoul National University, Seoul, Korea.
+5 ::: jykim ::: 174693 ::: Kim ::: Yeon-Ju :::  ::: 1National Academy of Agricultural Science,  RDA, Suwon 441-707, South Korea
+6 ::: jykim ::: 193906 ::: Kim ::: Yeung Jin :::  ::: Department of Orthopaedic Surgery, Wonkwang Univerity Hospital, Iksan, Korea.
+7 ::: jykim ::: 290845 ::: Kim ::: Yeun Ju ::: KimYJ@mail.nih.gov ::: Sections on Molecular Signal Transduction, Program for Developmental Neuroscience, NICHD, National Institutes of Health, Bethesda, MD 20892, USA
+7 ::: jykim ::: 322974 ::: Kim ::: Yeun Ju :::  ::: Section on Molecular Signal Transduction, Program for Developmental Neuroscience, Eunice Kennedy Shriver National Institute of Child Health and Human Development, National Institutes of Health, Bethesda, MD 20847
+9 ::: jykim ::: 259634 ::: Kim ::: Y. J. :::  ::: HANARO Center, Korea Atomic Energy Research Institute, PO Box 105, Yuseong, Daejeon 305-600, Republic of Korea
+10 ::: jykim ::: 331483 ::: Kim ::: Y J :::  ::: Laboratory of Molecular Genetics, Center for Basic Research, Samsung Biomedical Research Institute, Ilwon-dong 50, Kangnam-ku, Seoul 135-230, Korea.
+11 ::: jykim ::: 174454 ::: Kim ::: Yong Jin :::  ::: Department of Orthopaedic Surgery, West Busan Centum Hospital, Busan, Korea.
+11 ::: jykim ::: 181836 ::: Kim ::: Yong Jin :::  ::: Department of Orthopedic Surgery, Choon Hae Hospital, Busan, Korea.
+12 ::: jykim ::: 130586 ::: Kim ::: Yong Jin :::  ::: Department of Surgery, Soonchunhyang University School of Medicine, Seoul, Korea.
+13 ::: jykim ::: 283304 ::: Kim ::: Yong Jin :::  ::: Department of Thoracic and Cardiovascular Surgery, Seoul National University Children's Hospital, Seoul National University College of Medicine, Seoul, Korea.
+13 ::: jykim ::: 309534 ::: Kim ::: Yong-Jin :::  ::: Department of Thoracic and Cardiovascular Surgery, Seoul National University Hospital, Seoul National University College of Medicine, Seoul, Korea.
+12 ::: jykim ::: 182241 ::: Kim ::: Yong Jin ::: yjgs1997@gmail.com ::: Department of Surgery, Soonchunhyang University College of Medicine, Seoul, Korea
+14 ::: jykim ::: 264810 ::: Kim ::: Yong-Joo :::  ::: Ministry of Agriculture and Forestry, Anyang, South Korea
+15 ::: jykim ::: 128660 ::: Kim ::: Yong-June :::  ::: Department of Urology, Chungbuk National University College of Medicine, Cheongju, Korea.
+15 ::: jykim ::: 172971 ::: Kim ::: Yong-June :::  ::: Department of Urology, Chungbuk National University College of Medicine, Cheongju, Korea.
+15 ::: jykim ::: 174579 ::: Kim ::: Yong-June :::  ::: Department of Urology, Chungbuk National University College of Medicine, Cheongju, Korea.
+15 ::: jykim ::: 228414 ::: Kim ::: Yong-June :::  :::  Department of Urology, Chungbuk National University, College of Medicine, Cheongju, South Korea
+15 ::: jykim ::: 181724 ::: Kim ::: Yong-June :::  ::: Department of Urology, College of Medicine, Chungbuk National University, Cheongju, Korea.
+15 ::: jykim ::: 181775 ::: Kim ::: Yong-June :::  ::: Department of Urology, College of Medicine, Chungbuk National University, Cheongju, Korea.
+15 ::: jykim ::: 181904 ::: Kim ::: Yong-June :::  ::: Department of Urology, College of Medicine, Chungbuk National University, Cheongju, Korea.
+15 ::: jykim ::: 188473 ::: Kim ::: Yong-June :::  ::: Department of Urology, College of Medicine, Chungbuk National University, Cheongju, Korea.
+15 ::: jykim ::: 127419 ::: Kim ::: Yong-June ::: urokyj@cbnu.ac.kr ::: 
+15 ::: jykim ::: 136682 ::: Kim ::: Yong-June ::: urokyj@cbnu.ac.kr ::: 
+16 ::: jykim ::: 275112 ::: Kim ::: Yong-Jun ::: kyjaloge@khu.ac.kr ::: Department of Pathology and Medical Science and Engineering Research Center for Bioreaction to Reactive Oxygen Species, Kyung Hee University, Seoul, South Korea
+17 ::: jykim ::: 131297 ::: Kim ::: Yon-Ju :::  ::: Department of Obstetrics and Gynecology, Samsung Cheil Hospital, Sungkyunkwan University, Seoul, Korea.
+18 ::: jykim ::: 310295 ::: Kim ::: Yoo Jung :::  ::: Department of Food Science and Nutrition, Kyungpook National University, 1370 Sankyuk-dong, Puk-ku, Daegu 702-701, Korea.
+19 ::: jykim ::: 190053 ::: Kim ::: Yoon Jae :::  ::: Department of Gastroenterology Gachon Graduate School of Medicine, 7-45 Songdo-dong, Yeonsu-gu, Incheon 406-840, Korea
+20 ::: jykim ::: 166220 ::: Kim ::: Yoon Jung :::  ::: Department of Pathology, Seoul Veterans Hospital, Seoul, Korea.
+20 ::: jykim ::: 171209 ::: Kim ::: Yoon Jung :::  ::: Department of Pathology, Seoul Veterans Hospital, Seoul, Korea.
+21 ::: jykim ::: 281542 ::: Kim ::: Yoon Jung ::: kimyoonjung@kaist.ac.kr ::: Dept. of Chemical and Biomolecular Engineering (The Brain Korea 21 Program), Korea Advanced Institute of Science and Technology, 373-1, Guseong-dong, Yuseong-gu, Daejeon, 305-701, Korea
+22 ::: jykim ::: 287783 ::: Kim ::: You Jeong :::  ::: Department of Dermatology, Kangnam St. Mary's Hospital, College of Medicine, The Catholic University of Korea, Seoul, Korea.
+23 ::: jykim ::: 305069 ::: Kim ::: You Jin :::  ::: Department of Food and Nutritional Sciences, Ewha Womans University, 11-1 Daehyung-dong, Seodaemun-gu, Seoul 120-750, Korea.
+23 ::: jykim ::: 293075 ::: Kim ::: You Jin :::  ::: Department of Nutritional Science and Food Management, Ewha Womans University, 11-1 Daehyeon-dong, Seodaemun-gu, Seoul 120-750, Korea.
+24 ::: jykim ::: 295178 ::: Kim ::: You Jung :::  ::: Department of Electrical Engineering and Computer Science, University of Michigan, Ann Arbor, MI 48109, USA
+24 ::: jykim ::: 349034 ::: Kim ::: You Jung :::  ::: Department of Electrical Engineering and Computer Science, University of MichiganAnn Arbor, MI 48109, USA
+24 ::: jykim ::: 145010 ::: Kim ::: You Jung ::: youjkim@eecs.umich.edu ::: Computer Science and Engineering, University of Michigan, 2260 Hayward, Ann Arbor, Ml, USA
+25 ::: jykim ::: 161128 ::: Kim ::: Young Jae :::  ::: Department of Anesthesiology and Pain Medicine, Busan Paik Hospital, College of Medicine, Inje University, Busan, Korea.
+25 ::: jykim ::: 175010 ::: Kim ::: Young Jae :::  ::: Department of Anesthesiology and Pain Medicine, Busan Paik Hospital, College of Medicine, Inje University, Busan, Korea.
+25 ::: jykim ::: 175091 ::: Kim ::: Young Jae :::  ::: Department of Anesthesiology and Pain Medicine, Busan Paik Hospital, College of Medicine, Inje University, Busan, Korea.
+25 ::: jykim ::: 189405 ::: Kim ::: Young Jae :::  ::: Department of Anesthesiology and Pain Medicine, Busan Paik Hospital, College of Medicine, Inje University, Busan, Korea.
+25 ::: jykim ::: 188909 ::: Kim ::: Young Jae :::  ::: Department of Anesthesiology and Pain Medicine, Paik Hospital, College of Medicine, Inje University, Busan, Korea.
+26 ::: jykim ::: 254357 ::: Kim ::: Young-Jae :::  ::: Department of Laboratory Mecidine, Masan Samsung Hospital, Sungkyunkwan University School of Medicine, Masan, Korea.
+27 ::: jykim ::: 173767 ::: Kim ::: Young-Jae :::  ::: Department of Obstetrics and Gynecology, College of Medicine, Hanyang University, Seoul, Korea.
+28 ::: jykim ::: 164133 ::: Kim ::: Young Jin :::  ::: Center for Genome Science, Korea National Institute of Health, Seoul, Korea
+29 ::: jykim ::: 309313 ::: Kim ::: Young-Jin :::  ::: Department of Chest Surgery, Konyang University College of Medicine, Daejeon, Korea.
+30 ::: jykim ::: 180702 ::: Kim ::: Young Jin :::  ::: Department of Surgery, Chonnam National University Hwasun Hospital and Medical School, Gwangju, Korea.
+31 ::: jykim ::: 306598 ::: Kim ::: Young Jo :::  ::: 
+31 ::: jykim ::: 128578 ::: Kim ::: Young-Jo :::  ::: Department of Internal Medicine, College of Medicine, Yeungnam University, Daegu, Korea.
+31 ::: jykim ::: 289668 ::: Kim ::: Young Jo :::  ::: Department of Internal Medicine, Yeungnam University Hospital, Daegu, Korea.
+32 ::: jykim ::: 301242 ::: Kim ::: Young Jon :::  ::: Department of Medical Education, Chonbuk National University Medical School, Jeonju, Korea.
+33 ::: jykim ::: 218268 ::: Kim ::: Young Joo :::  ::: 
+34 ::: jykim ::: 253651 ::: Kim ::: Young Joo :::  ::: 1Medical Genomics Research Center, KRIBB, Daejeon 305-806, 2Department of Bio and Brain Engineering, KAIST, Daejeon 305-701 and 3Bioneer, 49-3 Moonpyung-dong, Daedok, Daejeon 306-220, Korea
+33 ::: jykim ::: 223209 ::: Kim ::: Young Joo :::  ::: 1National Genome Information Center, 52 Eoeun-dong, Yuseong-gu, Daejeon 305-333, Korea, 2Interdisciplinary Program in Bioinformatics, Seoul National University, Seoul 151-742, Korea and 3Center for Plant Molecular Genetics and Breeding Research, Seoul National University, Seoul 151-742, Korea 
+35 ::: jykim ::: 248691 ::: Kim ::: Young-Joo :::  ::: Department of Internal Medicine and Respiratory Center, Kyungpook National University School of Medicine, Daegu, Korea.
+36 ::: jykim ::: 132120 ::: Kim ::: Young-Joo :::  ::: Department of Urology, College of Medicine, Cheju National University, Jeju, Korea.
+37 ::: jykim ::: 167503 ::: Kim ::: Young-Joon :::  ::: 
+33 ::: jykim ::: 332964 ::: Kim ::: Young Joo :::  ::: National Genome Information Center (NGIC), Korea Research Institute of Bioscience and Biotechnology52 Eoeun-dong, Yuseong-guDaejeon 305-333, Korea
+38 ::: jykim ::: 200778 ::: Kim ::: Young-Joon :::  :::  Department of Biochemistry, National Creative Research Initiative Center for Genome Regulation, Yonsei University, Seoul, Korea
+38 ::: jykim ::: 256350 ::: Kim ::: Young-Joon :::  ::: Department of Biochemistry, Yonsei University, Seoul, Korea
+38 ::: jykim ::: 253886 ::: Kim ::: Young-Joon :::  ::: Department of Biochemistry, Yonsei University, Seoul, Republic of Korea
+38 ::: jykim ::: 229649 ::: Kim ::: Young-Joon ::: yjkim@yonsei.ac.kr ::: Department of Biochemistry, College of Life Science and Technology, Yonsei University, 134 Sinchon-dong, Seodaemun-gu, Seoul, Korea
+39 ::: jykim ::: 296643 ::: Kim ::: Young Joo :::  ::: Translational Research Program, Benaroya Research Institute at Virginia Mason, Seattle, WA 98101, USA,
+31 ::: jykim ::: 165901 ::: Kim ::: Young Jo :::  ::: Yeungnam University Hospital, Daegu, Korea.
+31 ::: jykim ::: 305488 ::: Kim ::: Young Jo :::  ::: Yeungnam University Hospital, Daegu, Korea.
+40 ::: jykim ::: 308596 ::: Kim ::: Young-jo ::: Young-jo.Kim@childrens.harvard.edu ::: 
+41 ::: jykim ::: 131297 ::: Kim ::: Young-Ju :::  ::: Department of Obstetrics and Gynecology, Ewha Women's University Mokdong Hospital, Seoul, Korea.
+41 ::: jykim ::: 233041 ::: Kim ::: Young-Ju :::  ::: Department of Obstetrics and Gynecology, Mokdong Ewha Medical Center, School of Medicine, Ewha Womans University, Seoul, Korea.
+41 ::: jykim ::: 296550 ::: Kim ::: Young Ju :::  ::: Department of Obstetrics Medicine, College of Medicine, Ewha Medical Research Center, Ewha Womans University, Seoul, Korea 
+41 ::: jykim ::: 188218 ::: Kim ::: Young-Ju :::  :::  Department of Obstetrics Medicine, School of Medicine, Ewha Woman’s University
+42 ::: jykim ::: 283270 ::: Kim ::: Young Ju :::  ::: Department of Radiology, Yonsei University Wonju College of Medicine, Wonju, Korea.
+43 ::: jykim ::: 188245 ::: Kim ::: Young Jun :::  ::: Department of Anesthesiology and Pain Medicine, Ajou University School of Medicine, Suwon, Korea.
+43 ::: jykim ::: 273191 ::: Kim ::: Young Jun :::  ::: Department of Ophthalmology, Inha University College of Medicine, Incheon, Korea.
+44 ::: jykim ::: 288601 ::: Kim ::: Young-Jun :::  ::: Stem Cell Center, Korea Research Institute of Bioscience and Biotechnology, Daejeon 305-333, Republic of Korea
+45 ::: jykim ::: 278789 ::: Kim ::: Youn Jeong :::  ::: Department of Internal Medicine, Kangnam St. Mary's Hospital, College of Medicine, The Catholic University of Korea, Seoul, Korea.
+46 ::: jykim ::: 186114 ::: Kim ::: Youn Jin :::  ::: Department of Anesthesiology and Pain Medicine, School of Medicine, Ewha Womans University, Seoul, Korea.
+47 ::: jykim ::: 190746 ::: Kim ::: Youn Joo :::  ::: Department of Internal Medicine, Seoul National University College of Medicine, Seoul, Korea.
+48 ::: jykim ::: 277698 ::: Kim ::: Yu Jeong :::  ::: Seoul Artificial Eye Center, Seoul National University Hospital Clinical Research Institute, Seoul, Korea.
+49 ::: jykim ::: 193990 ::: Kim ::: Yu Jin :::  ::: Department of Internal Medicine and Institute of Gastroenterology, Yonsei University College of Medicine, Seoul, Korea.
+49 ::: jykim ::: 183262 ::: Kim ::: Yu Jin :::  ::: Department of Internal Medicine, Institute of Gastroenterology, Yonsei University College of Medicine, Seoul, Korea.
+50 ::: jykim ::: 293048 ::: Kim ::: Yu Jin :::  ::: Department of Pediatrics, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Korea.
+50 ::: jykim ::: 301678 ::: Kim ::: Yu Jin :::  ::: Department of Pediatrics, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Korea.
+51 ::: jykim ::: 173799 ::: Kim ::: Yu Jin :::  ::: Division of Pulmonary Medicine, Department of Internal Medicine, Gachon Medical School Gil Medical Center, Incheon, Korea.
+52 ::: jykim ::: 132477 ::: Kim ::: Yu Jung ::: cong1005@medimail.co.kr ::: 
+52 ::: jykim ::: 298557 ::: Kim ::: Yu Jung :::  ::: Department of Internal Medicine, Seoul National University College of Medicine, Seoul, Korea.
+53 ::: jykim ::: 231910 ::: Kim ::: Yung-Jae :::  ::: Korea INSpharm Research institute, 1065 Daepo-ri, Dong-myeon, Hwasun-gun, Jeonnam 519-882, Korea.
+54 ::: jykim ::: 152349 ::: Kim ::: Yun-Jee :::  ::: Seegene Institute of Life Science, 65-5 Bangyi-dong, Songpa-gu, Seoul 138-050, South Korea
+55 ::: jykim ::: 131792 ::: Kim ::: Yun-Jeong :::  ::: Department of Ophthalmology, Hallym University Sacred Heart Hospital, Anyang, Korea.
+55 ::: jykim ::: 279098 ::: Kim ::: Yun-Jeong :::  ::: Department of Ophthalmology, Hallym University Sacred Heart Hospital, Anyang, Korea.
+55 ::: jykim ::: 182441 ::: Kim ::: Yun-Jeong :::  ::: Department of Ophthalmology, Hallym University Sacred Heart Hospital, Hallym University College of Medicine, Anyang, Korea.
+56 ::: jykim ::: 178903 ::: Kim ::: Yun-Jeong :::  ::: Department of Ophthalmology, Seoul Veterans Hospital, Seoul, Korea.
+57 ::: jykim ::: 260066 ::: Kim ::: Yun-Jeung :::  ::: Laboratory of Endocrine Cell Biology, Division of Endocrinology, Department of Internal Medicine, Chungnam National University School of Medicine, Daejeon, Korea.
+58 ::: jykim ::: 256110 ::: Kim ::: Yun-Ji ::: ky2j1020@pusan.ac.kr ::: Division of Biological Sciences, College of Natural Sciences, Pusan National University, Busan, 609-735, Republic of Korea
+59 ::: jykim ::: 291319 ::: Kim ::: Yun Joong ::: yunkim@hallym.ac.kr ::: Ilsong Institute of Life Science, Hallym University, 1605-4 Gwanyang-dong, Dongan-gu, Anyang, Gyeonggi-do 431-060, South Korea
+60 ::: jykim ::: 166671 ::: Kim ::: Yun-Jung :::  ::: Hanyang University Hospital for Rheumatic Diseases, Seoul, Korea.

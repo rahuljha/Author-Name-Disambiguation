@@ -1,0 +1,101 @@
+1 ::: tsuzuki ::: 144985 ::: Suzuki ::: T :::  ::: 
+2 ::: tsuzuki ::: 260660 ::: Suzuki ::: Tadahiro ::: taboengine@yahoo.co.jp ::: Laboratory of Plant Biotechnology, Biotechnology Research Center, University of Tokyo, Tokyo 113-8657, Japan
+3 ::: tsuzuki ::: 194244 ::: Suzuki ::: Tadaki :::  ::: Department of Molecular Pathobiology, Hokkaido University Research Center for Zoonosis Control, Sapporo, Japan
+3 ::: tsuzuki ::: 174566 ::: Suzuki ::: Tadaki ::: tksuzuki@nih.go.jp ::: Department of Molecular Pathobiology, Hokkaido University Research Center for Zoonosis Control, Kita 20, Nishi 10, Kita-ku, Sapporo 001-0020, Japan
+4 ::: tsuzuki ::: 185454 ::: Suzuki ::: Tadashi :::  ::: 
+5 ::: tsuzuki ::: 277867 ::: Suzuki ::: Taiji ::: s-taiji@stat.t.u-tokyo.ac.jp ::: Department of Mathematical Informatics, The University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-8656, Japan
+6 ::: tsuzuki ::: 312572 ::: Suzuki ::: Takafumi :::  ::: Graduate School of Engineering, Shizuoka University, Shizuoka, Japan
+7 ::: tsuzuki ::: 212954 ::: Suzuki ::: Takahiro :::  ::: 
+7 ::: tsuzuki ::: 213455 ::: Suzuki ::: Takahiro :::  ::: 
+8 ::: tsuzuki ::: 255138 ::: Suzuki ::: Takahiro :::  ::: Division of Hematology, Department of Medicine, Jichi Medical University, 3311-1 Yakushiji, Shimotsuke-shi, Tochigi, 329-0498 Japan 
+tsuzuki ::: 132288 ::: Suzuki ::: Takahiro ::: t-suzuki@gsc.riken.jp ::: 
+7 ::: tsuzuki ::: 221228 ::: Suzuki ::: Takahiro ::: t-suzuki@gsc.riken.jp ::: Laboratory for Genome Exploration Research Group, RIKEN Genomic Sciences Center (GSC), RIKEN Yokohama Institute, 1-7-22 Suehiro-cho, Tsurumi-ku, Yokohama, Kanagawa 230-0045, Japan
+7 ::: tsuzuki ::: 349990 ::: Suzuki ::: Takahiro ::: t-suzuki@gsc.riken.jp ::: Laboratory for Genome Exploration Research Group, RIKEN Genomic Sciences Center (GSC), RIKEN Yokohama Institute, 1-7-22 Suehiro-cho, Tsurumi-ku, Yokohama, Kanagawa 230-0045, Japan
+7 ::: tsuzuki ::: 311188 ::: Suzuki ::: Takahiro ::: t-suzuki@gsc.riken.jp ::: RIKEN Omics Science Center, 1-7-22 Suehiro-cho, Tsurumi-ku, Yokohama, Kanagawa 230-0045, Japan
+8 ::: tsuzuki ::: 183460 ::: Suzuki ::: Takahisa ::: takahisa-suzuki@hiroshima-u.ac.jp ::: Department of Surgery, Division of Frontier Medical Science, Graduate School of Biomedical Science, Hiroshima University, Hiroshima, Japan
+9 ::: tsuzuki ::: 146164 ::: Suzuki ::: Takashi :::  ::: 
+10 ::: tsuzuki ::: 290348 ::: Suzuki ::: Takashi :::  ::: 1Research Institute of Molecular Pathology (IMP), Dr Bohr-Gasse 7 and 2Institute of Molecular Biotechnology (IMBA), Dr Bohr-Gasse 3, A-1030 Vienna, Austria
+11 ::: tsuzuki ::: 299499 ::: Suzuki ::: Takashi :::  ::: Department of Pathology, Tohoku University School of Medicine, Sendai, Japan 
+12 ::: tsuzuki ::: 265233 ::: Suzuki ::: Takashi ::: suzuki51@osaka-med.jrc.or.jp ::: Department of Orthopaedic Surgery, Graduate School of Medicine, Kyoto University, 54 Kawahara-Cho, Shogoin, Sakyo-Ku, Kyoto 606-8507, Japan
+12 ::: tsuzuki ::: 295169 ::: Suzuki ::: Takashi ::: suzuki51@osaka-med.jrc.or.jp ::: Department of Orthopaedic Surgery, Graduate School of Medicine, Kyoto University, Kyoto, 606-8507, Japan
+13 ::: tsuzuki ::: 323908 ::: Suzuki ::: Takashi ::: suzukit@u-shizuoka-ken.ac.jp ::: 
+12 ::: tsuzuki ::: 353147 ::: Suzuki ::: Takashi ::: tsts@kuhp.kyoto-u.ac.jp ::: Department of Orthopaedic Surgery, Graduate School of Medicine, Kyoto University, Kyoto, Japan
+14 ::: tsuzuki ::: 285739 ::: Suzuki ::: Takayuki :::  ::: Department of Bioscience, Fukui Prefectural UniversityEiheiji-cho, Fukui 910-1195, Japan
+14 ::: tsuzuki ::: 287850 ::: Suzuki ::: Takayuki ::: i043006d@gmail.com ::: Department of Biological Sciences, University of Delaware, Newark, DE 19716, USA
+15 ::: tsuzuki ::: 323596 ::: Suzuki ::: Takefumi ::: takefumi@oak.dti.ne.jp ::: 
+16 ::: tsuzuki ::: 278353 ::: Suzuki ::: Takehito :::  ::: School of Veterinary Medicine, Azabu University, 1-17-71 Fuchinobe, Sagamihara, Kanagawa 229-8501, Japan
+17 ::: tsuzuki ::: 280243 ::: Suzuki ::: Takeo :::  ::: 
+18 ::: tsuzuki ::: 288838 ::: Suzuki ::: Takeo :::  ::: 1Architecture et Réactivité de l'A;RN, Université de Strasbourg, CNRS, IBMC 15 rue René Descartes, 67084 Strasbourg, France and 2Department of Chemistry and Biotechnology, Graduate School of Engineering, University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-8656, Japan
+19 ::: tsuzuki ::: 254341 ::: Suzuki ::: Takeo ::: not@valid.com ::: Chikuba Hospital for Gastrointestinal and Colorectal Surgery, Kurashiki 710-0142, Japan
+20 ::: tsuzuki ::: 236068 ::: Suzuki ::: Takeshi :::  ::: 
+21 ::: tsuzuki ::: 139046 ::: Suzuki ::: Takeshi :::  ::: Department of Anatomy and Cell Biology, Gunma University Graduate School of Medicine, Maebashi, Gunma 371–8511, Japan
+21 ::: tsuzuki ::: 202563 ::: Suzuki ::: Takeshi :::  ::: Department of Anatomy and Cell Biology, Gunma University Graduate School of Medicine, Maebashi, Gunma 371–8511, Japan
+22 ::: tsuzuki ::: 286927 ::: Suzuki ::: Takeshi :::  ::: Department of Cell Pharmacology, Graduate School of Medicine, Nagoya University, Nagoya, Japan
+23 ::: tsuzuki ::: 135182 ::: Suzuki ::: Takeshi :::  ::: Division of Clinical Immunology, Doctoral Program in Clinical Sciences, Graduate School of Comprehensive Human Sciences, University of Tsukuba, Tsukuba, Ibaraki Japan 
+24 ::: tsuzuki ::: 237695 ::: Suzuki ::: Takeshi ::: takesuzu@med.nagoya-cu.ac.jp ::: Department of Medical Oncology and Immunology, Nagoya City University Graduate School of Medical Science, Nagoya, Japan
+25 ::: tsuzuki ::: 287885 ::: Suzuki ::: Takeyuki :::  ::: Department of Internal Medicine and Clinical Immunology, Yokohama City University Graduate School of Medicine, 3-9 Fukuura, Kanazawa-ku, Yokohama 236-0004, Japan
+25 ::: tsuzuki ::: 259255 ::: Suzuki ::: Takeyuki :::  ::: Department of Internal Medicine and Clinical Immunology, Yokohama City University Graduate School of Medicine, Kanagawa, Japan
+26 ::: tsuzuki ::: 262787 ::: Suzuki ::: Takuji :::  ::: 1Division of Pulmonary Biology, 2Division of Pulmonary Medicine, 3Division of Human Genetics, and 4Division of Experimental Hematology and Cancer Biology, Cincinnati Children's Hospital Medical Center, Cincinnati, OH 45229
+27 ::: tsuzuki ::: 194748 ::: Suzuki ::: Takuya ::: takuya@hiroshima-u.ac.jp ::: 
+28 ::: tsuzuki ::: 145940 ::: Suzuki ::: Tatsuo :::  ::: 
+29 ::: tsuzuki ::: 189698 ::: Suzuki ::: Tatsuya :::  ::: 
+29 ::: tsuzuki ::: 257675 ::: Suzuki ::: Tatsuya :::  ::: Kazusa DNA Research InstituteKazusa-Kamatari 2-6-7, Kisarazu 292-0818, Japan
+tsuzuki ::: 134456 ::: Suzuki ::: Tatsuya :::  ::: Research Laboratory for Nuclear Reactors, Tokyo Institute of Technology, O-okayama, Meguro-ku, 152-8550 Tokyo, Japan 
+29 ::: tsuzuki ::: 185722 ::: Suzuki ::: Tatsuya ::: t.szk91@ma.pref.chiba.lg.jp ::: Chiba Prefectural Agriculture and Forestry Research Center, 808 Daizenno-cho, Midori-ku, Chiba, 266-0006, Japan
+30 ::: tsuzuki ::: 331800 ::: Suzuki ::: T :::  ::: Department of Biochemistry, Medical Institute of Bioregulation, Kyushu University, Fukuoka, Japan.
+31 ::: tsuzuki ::: 330971 ::: Suzuki ::: T :::  ::: Department of Biology, Faculty of Science, Chiba University, CREST Japan Science and Technology Corporation, 1-33 Yayoi-cho, Inage-ku, Chiba 263-8522, Japan.
+32 ::: tsuzuki ::: 327799 ::: Suzuki ::: T :::  ::: Department of Chemistry and Biotechnology, Graduate School of Engineering, The University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-8656, Japan.
+33 ::: tsuzuki ::: 239898 ::: Suzuki ::: T :::  ::: Department of Developmental Biology, National Institute for Basic Biology, Okazaki, Japan.
+1 ::: tsuzuki ::: 154453 ::: Suzuki ::: T :::  ::: Department of Field Research, Center for Adult Diseases, Osaka, Japan.
+34 ::: tsuzuki ::: 144202 ::: Suzuki ::: T :::  ::: Department of Microbiology, University of Kansas Medical Center, Kansas City 66160, USA.
+35 ::: tsuzuki ::: 237808 ::: Suzuki ::: T :::  ::: Department of Molecular Biology, National Institute of Agrobiological Resources, Tsukuba, Japan.
+35 ::: tsuzuki ::: 243061 ::: Suzuki ::: T :::  ::: Department of Molecular Biology, National Institute of Agrobiological Resources, Tsukuba, Japan.
+35 ::: tsuzuki ::: 245516 ::: Suzuki ::: T :::  ::: Department of Molecular Biology, National Institute of Agrobiological Resources, Tsukuba, Japan.
+36 ::: tsuzuki ::: 226214 ::: Suzuki ::: T :::  ::: Department of Polymer Science and Engineering, Kyoto Institute of Technology, Japan.
+37 ::: tsuzuki ::: 246547 ::: Suzuki ::: T :::  ::: Department of Tumor Virus Research, University of Tokyo, Japan.
+39 ::: tsuzuki ::: 232455 ::: Suzuki ::: Tetsuji :::  :::  Graduate School of Health Information Science Teikyo Heisei University, Department of Pre-hospital Emergency Medical Care
+39 ::: tsuzuki ::: 233301 ::: Suzuki ::: Tetsuji :::  :::  Graduate School of Health Information Science, Teikyo Heisei University, Department of Pre-hospital Emergency Medical Care
+40 ::: tsuzuki ::: 213975 ::: Suzuki ::: Tetsuro :::  ::: Department of Virology II, National Institute of Infectious Diseases, 1-23-1 Toyama, Shinjuku-ku, Tokyo, Japan 
+40 ::: tsuzuki ::: 181934 ::: Suzuki ::: Tetsuro :::  ::: Department of Virology II, National Institute of Infectious Diseases, Tokyo, Japan
+40 ::: tsuzuki ::: 231720 ::: Suzuki ::: Tetsuro :::  ::: National Institute of Infectious Diseases, Tokyo, Japan
+41 ::: tsuzuki ::: 144330 ::: Suzuki ::: Tetsuya :::  ::: Department of Genomics and Proteomics, Okayama University Advanced Science Research CenterTsushima, Okayama 700-8530, Japan
+42 ::: tsuzuki ::: 328670 ::: Suzuki ::: T :::  ::: Faculty of Pharmaceutical Sciences, Hokkaido University, Sapporo 060, Japan.
+61 ::: tsuzuki ::: 279005 ::: Suzuki ::: Tohru :::  ::: 
+62 ::: tsuzuki ::: 272230 ::: Suzuki ::: Tohru :::  ::: 1The United Graduate School of Agricultural Science, Gifu University, 1-1 Yanagido, Gifu 501-1193, 2Department of Molecular Genetics, Kyoto Pharmaceutical University, 1 Shichono-cho, Misasagi, Yamashina-ku, Kyoto 607-8412, 3Division of Anaerobe Research, Life Science Research Center, Gifu University, 1-1 Yanagido, Gifu 501-1193, 4Department of Environmental Science, Musashino University, Shinmachi Nishitokyo-shi, Tokyo 202-8585 and 5Department of Bioscience, Tokyo University of Agriculture, Sakuragaoka, Setagaya-ku, Tokyo 156-8502, Japan
+62 ::: tsuzuki ::: 311162 ::: Suzuki ::: Tohru :::  ::: The United Graduate School of Agricultural Science, Gifu University, Japan
+63 ::: tsuzuki ::: 135082 ::: Suzuki ::: Tomo :::  ::: 1Schepens Eye Research Institute and Department of Ophthalmology, Harvard Medical School, Boston, MA
+64 ::: tsuzuki ::: 348003 ::: Suzuki ::: Tomoharu :::  ::: Graduate School of Biomedical Sciences, Research Institute for Radiation Biology and Medicine, Hiroshima University, Hiroshima, Japan. skitamu@hiroshima-u.ac.jp
+65 ::: tsuzuki ::: 186110 ::: Suzuki ::: Tomoharu ::: s0612463@u.tsukuba.ac.jp ::: 
+66 ::: tsuzuki ::: 186223 ::: Suzuki ::: Tomohiro :::  ::: 1 Technology and Development Unit for Knowledge Base of Mouse Phenotype, 2 Technology and Development Team for Mouse Phenotype Analysis, 3 Team for Advanced Development and Evaluation of Human Disease Models, RIKEN BioResource Center, Tsukuba 305-0074, 4 Division of Systems Medical Science, Institute for Comprehensive Medical Science, Fujita Health University, Toyoake 470-1192 and 5 Mouse Genomics Resource Laboratory, National Institute of Genetics, Mishima 411-8540, Japan
+67 ::: tsuzuki ::: 351653 ::: Suzuki ::: Tomohiro :::  ::: 2Department of Applied Biological Chemistry, Faculty of Agriculture, Shizuoka UniversityShizuoka, Japan
+66 ::: tsuzuki ::: 192280 ::: Suzuki ::: Tomohiro :::  ::: Technology and Development Team for Mouse Phenotype Analysis, RIKEN BioResource Center, Ibaraki, Japan
+42 ::: tsuzuki ::: 140174 ::: Suzuki ::: Tomonori :::  ::: Graduate School of Pharmaceutical Sciences, The University of Tokyo, Tokyo 113-0033, Japan,
+63 ::: tsuzuki ::: 307076 ::: Suzuki ::: Tomo :::  ::: Schepens Eye Research Institute and Department of Ophthalmology, Harvard Medical School, Boston, MA
+68 ::: tsuzuki ::: 130021 ::: Suzuki ::: Tomoyuki ::: s026079RN@it-chiba.ac.jp ::: Department of Life and Environmental Sciences, Chiba Institute of Technology, 2-17-1 Tsudanuma, Narashino, Chiba 275-0016, Japan
+69 ::: tsuzuki ::: 262446 ::: Suzuki ::: Toru :::  ::: 1Laboratory of Structural Biology, Tsinghua University, Beijing 100084, 2National Laboratory of Macromolecules, Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China, 3Division of Oncology, Institute of Medical Science, University of Tokyo, Minato-ku, Tokyo 108-8639, Japan, 4College of Life Sciences & Tianjin State Laboratory of Protein Sciences, Nankai University, Tianjin 300071 and 5Shenzhen College of International Education, Shenzhen 518048, China
+70 ::: tsuzuki ::: 140114 ::: Suzuki ::: Toshiharu :::  ::: Laboratory of Neuroscience, Graduate School of Pharmaceutical Sciences, Hokkaido UniversitySapporo, Japan
+70 ::: tsuzuki ::: 205558 ::: Suzuki ::: Toshiharu ::: tsuzuki@pharm.hokudai.ac.jp ::: Hokkaido University, Sapporo, Japan
+70 ::: tsuzuki ::: 163643 ::: Suzuki ::: Toshiharu ::: tsuzuki@pharm.hokudai.ac.jp ::: Laboratory of Neuroscience, Graduate School of Pharmaceutical Sciences, Hokkaido University, Kita12-Nishi6, Kita-ku, Sapporo 060-0812, Japan
+71 ::: tsuzuki ::: 147924 ::: Suzuki ::: Toshihiko :::  :::  Division of Bacterial Pathogenesis, Graduate School of Medicine, University of the Ryukyus, Okinawa, Japan
+72 ::: tsuzuki ::: 222187 ::: Suzuki ::: Toshimitsu ::: tmt@fmu.ac.jp ::: Department of Pathology, Fukushima Medical University School of Medicine, Fukushima, 960-1295, Japan
+36 ::: tsuzuki ::: 143303 ::: Suzuki ::: Toshinori :::  ::: 
+73 ::: tsuzuki ::: 344365 ::: Suzuki ::: Toshinori :::  ::: 
+74 ::: tsuzuki ::: 346774 ::: Suzuki ::: Toshinori :::  ::: 1Department of Biological Pharmacy, School of Pharmacy, Shujitsu University1-6-1 Nishigawara, Okayama 703-8516, Japan
+36 ::: tsuzuki ::: 337971 ::: Suzuki ::: Toshinori :::  ::: Department of Mathematical and Life Sciences, Graduate School of Science, Hiroshima University, Higashi-Hiroshima 739-8526, Japan,
+75 ::: tsuzuki ::: 266283 ::: Suzuki ::: Toshiya :::  ::: Department of Biological Mechanisms and Functions, Graduate School of Bioagricultural Sciences, Nagoya University, 
+76 ::: tsuzuki ::: 141099 ::: Suzuki ::: Toshiyasu :::  ::: Department of Anesthesiology, Tokai University School of Medicine, Isehara, Kanagawa 259–1193, Japan
+77 ::: tsuzuki ::: 300495 ::: Suzuki ::: Toshiyuki :::  ::: 1Department of Immunology, 2Department of Bimolecular Science, Institute of Biomedical Sciences, Fukushima Medical University School of Medicine, Fukushima 960-1295, Japan
+78 ::: tsuzuki ::: 290546 ::: Suzuki ::: Tsugutoshi :::  ::: Department of Pediatric Cardiology, Osaka City General Hospital, 2-13-22 Miyakojimahondori, Miyakojimaku, Osaka-city, Osaka, 534-0021, Japan
+79 ::: tsuzuki ::: 290167 ::: Suzuki ::: Tsuguyoshi :::  :::  Study Group on the Accumulation of Dioxins in Humans, Tokyo, Japan
+80 ::: tsuzuki ::: 304081 ::: Suzuki ::: Tsunehiko :::  ::: Osaka Prefecture General Medical Center, Rehabilitation Center for Disabled Persons, Osaka, Japan.
+32 ::: tsuzuki ::: 151651 ::: Suzuki ::: Tsutomu :::  ::: 
+32 ::: tsuzuki ::: 323887 ::: Suzuki ::: Tsutomu :::  ::: 
+32 ::: tsuzuki ::: 346259 ::: Suzuki ::: Tsutomu :::  ::: 
+32 ::: tsuzuki ::: 288838 ::: Suzuki ::: Tsutomu :::  ::: 1Architecture et Réactivité de l'A;RN, Université de Strasbourg, CNRS, IBMC 15 rue René Descartes, 67084 Strasbourg, France and 2Department of Chemistry and Biotechnology, Graduate School of Engineering, University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-8656, Japan
+32 ::: tsuzuki ::: 308268 ::: Suzuki ::: Tsutomu :::  ::: 1Department of Biological Information, Graduate School of Bioscience and Biotechnology, Tokyo Institute of Technology, B34 4259 Nagatsuta-cho, Midori-ku, Yokohama-shi, Kanagawa 226-8501, 2Department of Chemistry and Biotechnology, Graduate School of Engineering, The University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-8656 and 3Division of Structural Biology, Department of Basic Medical Sciences, The Institute of Medical Science, The University of Tokyo, 4-6-1 Shirokanedai, Minato-ku, Tokyo 108-8639, Japan
+32 ::: tsuzuki ::: 153544 ::: Suzuki ::: Tsutomu :::  ::: Department of Chemistry and Biotechnology, Graduate School of Engineering, University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-8656, Japan
+32 ::: tsuzuki ::: 158999 ::: Suzuki ::: Tsutomu :::  ::: Department of Chemistry and Biotechnology, Graduate School of Engineering, University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-8656, Japan
+32 ::: tsuzuki ::: 254837 ::: Suzuki ::: Tsutomu :::  ::: Department of Chemistry and Biotechnology, Graduate School of Engineering, University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-8656, Japan
+32 ::: tsuzuki ::: 291435 ::: Suzuki ::: Tsutomu :::  ::: Department of Chemistry and Biotechnology, Graduate School of Engineering, University of Tokyo, Bldg. 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-8656, Japan
+32 ::: tsuzuki ::: 294634 ::: Suzuki ::: Tsutomu :::  ::: Department of Chemistry and Biotechnology, Graduate School of Engineering, University of Tokyo, Bldg. 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-8656, Japan
+32 ::: tsuzuki ::: 256331 ::: Suzuki ::: Tsutomu :::  ::: Department of Chemistry and Biotechnology, Graduate School of Engineering, University of Tokyo, Bunkyo-ku, Tokyo, Japan

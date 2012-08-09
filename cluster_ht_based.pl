@@ -17,6 +17,7 @@ while(<FILE>) {
     chomp($_);
     
     my ($a1, $a2, $ht) = split(/\s+/, $_);
+    
     my ($id1, $id2);
     if(exists $cids{$a1}) {
 	$id1 = $cids{$a1};
