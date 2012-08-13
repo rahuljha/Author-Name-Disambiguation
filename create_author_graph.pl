@@ -39,6 +39,7 @@ while(<READ_FILE>) {
 	    $coauth_id = $cnt;
 	    $cnt++;
 	}
+
 	$id_hash{$norm_coauth} = $coauth_id;
 	print GRAPH "$curauth_id === $coauth_id\n";
     }  

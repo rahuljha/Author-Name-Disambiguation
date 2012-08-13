@@ -39,10 +39,6 @@ while(<READ_FILE>) {
     my $curauth_id = $cnt;
     $cnt++;
 
-    if($curauth_id eq "1206") {
-	print "came here";
-    }
-
     print DATA "$curauth_id ::: $_";
     chomp($_);
     my ($cid, $curauth, $pid, $t2, $t3, $email, $aff) = split(/ ::: /, $_);

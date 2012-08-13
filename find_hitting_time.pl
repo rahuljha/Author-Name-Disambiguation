@@ -10,17 +10,17 @@ open GRAPH, $graph_file or die $!;
 
 my $graph = {};
 
-my $MAX_ITER = 50;
-my $NUM_SAMPLES = 100;
+my $MAX_ITER = 20;
+my $NUM_SAMPLES = 50;
 
 # read the undirected graph
 while(<GRAPH>) {
     chomp($_);
     $_ =~ m/^(\d+) === (\d+)$/g;
-    $graph->{$1} = [] unless exists $graph->{$1};
-    $graph->{$2} = [] unless exists $graph->{$2};
-    push(@{$graph->{$1}}, $2);
-    push(@{$graph->{$2}}, $1);
+    $graph->{$1}{$2} = 0 unless exists $graph->{$1}{$2};
+    $graph->{$2}{$1} = 0 unless exists $graph->{$2}{$1};
+    $graph->{$1}{$2}++;
+    $graph->{$2}{$1}++;
 }
 
 close GRAPH;
@@ -52,7 +52,7 @@ sub get_sampled_hitting_time {
     my $a2 = shift;
     my $graph = shift;
     my $num_samples = shift;
-    
+
     my $aht = 0;
     for(my $i = 0; $i < $num_samples; $i++) {
 	$aht += get_hitting_time($a1, $a2, $graph, 1);
@@ -71,22 +71,67 @@ sub get_hitting_time {
 
     if($source eq $target) {
 #	print "FOUND\n";
-	return $iter;
+	return 1;
     } 
 
     if($iter > $MAX_ITER) {
 #	print "FAIL_MAXED\n";
+	return 1;
+    }
+
+    my @potential_hops = keys %{$graph->{$source}};
+
+    if($#potential_hops == -1) {
+#	print "FAIL_NOHOP\n";
 	return $MAX_ITER;
     }
 
-    my $potential_hops = $graph->{$source};
-
-    if(!defined $potential_hops) {
-#	print "FAIL_NOHOP\n";
-	return $MAX_ITER * 2;
+    my $hop_weights = {};
+    foreach my $t (@potential_hops) {
+	$hop_weights->{$t} = $graph->{$source}{$t};
     }
-    my $num_hops = scalar(@{$potential_hops});
-    my $hop = $potential_hops->[rand($num_hops)];
+
+    my $hop = pick_weighted_random($hop_weights);
 
     return 1 + get_hitting_time($hop, $target, $graph, $iter+1);
 }
+
+sub pick_weighted_random {
+    my $hop_weights = shift;
+    my $total = 0;
+    my $dist = {};
+    
+    foreach (values %$hop_weights) {
+        $total += $_;
+    }
+
+    while ( my ($key, $weight) = each %$hop_weights ) {
+        $dist->{$key} = $weight/$total;
+    }
+
+    while (1) {                     # to avoid floating point inaccuracies
+        my $rand = rand;
+        while ( my ($key, $weight) = each %$dist ) {
+            return $key if ($rand -= $weight) < 0;
+        }
+    }
+    
+}
+
+#=======testing weighted random =====
+
+# my $h = {50 => 1, 51 => 3, 52 => 2, 53 => 1, 54 => 1};
+# my $cnts = {};
+# my $total = 10000;
+
+# for(my $i=0; $i< $total; $i++) {
+#     my $p = pick_weighted_random($h);
+#     $cnts->{$p} = 0 unless exists $cnts->{$p};
+#     $cnts->{$p}++;
+# }
+
+# while( my ($k, $v) = each %$cnts)  {
+#     printf "%s : %.2f\n", $k, $v/$total;
+# }
+
+#=======finish testing weighted random =====
