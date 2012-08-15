@@ -62,6 +62,8 @@ while(1) {
     }
 
     my @new_aids = @{dclone \@aids};
+    my $merged_clusters = {};
+
     for(my $i = 0; $i <= $#aids; $i++) {
 	for(my $j = $i+1; $j <= $#aids; $j++) {
 	    my $a1 = $aids[$i];
@@ -72,7 +74,7 @@ while(1) {
 		my %rev_clusters = reverse %$clusters; 
 
 		# first check if both nodes have already been merged earlier in this iteration
-		next if(!in_array(\@new_aids, $a1) && !in_array(\@new_aids, $a2));
+		# next if(!in_array(\@new_aids, $a1) && !in_array(\@new_aids, $a2));
 
 		# else merge the nodes
 		$new_clusts++;
@@ -86,11 +88,12 @@ while(1) {
 		    if(!in_array(\@new_aids, $a2)) {
 			print "chk1";
 		    }
+		    $merged_clusters->{$a2} = $a1;
 		    @new_aids = remove_element($a2, @new_aids);
 		} elsif(exists $rev_clusters{$a1}) { 
 		    # this means $a1 already is a cluster
-		    if(exists $clusters->{$a1}) {
-			# but a2 could already have been assigned a cluster in this iteration, if yes, merge that cluster into current $a2
+		    if(exists $clusters->{$a2}) {
+			# but a2 could already have been assigned a cluster in this iteration, if yes, merge that cluster into current $a1
 			my $old_cid = $clusters->{$a2};
 			while( my ($aid, $cid) = each %$clusters) {
 			    if($cid eq $old_cid) {
@@ -100,6 +103,7 @@ while(1) {
 			if(!in_array(\@new_aids, $old_cid)) {
 			    print "chk2a";
 			}
+			$merged_clusters->{$old_cid} = $a1;
 			@new_aids = remove_element($old_cid, @new_aids);
 		    } else {
 			$clusters->{$a2} = $a1;
@@ -121,6 +125,7 @@ while(1) {
 			if(!in_array(\@new_aids, $old_cid)) {
 			    print "chk3a";
 			}
+			$merged_clusters->{$old_cid} = $a1;
 			@new_aids = remove_element($old_cid, @new_aids);
 		    } else {
 			$clusters->{$a1} = $a2;
@@ -129,6 +134,16 @@ while(1) {
 			}
 			@new_aids = remove_element($a1, @new_aids);
 		    }
+		} elsif(exists $clusters->{$a1} && exists $clusters->{$a2}) {
+		    #both are already assigned to clusters, merge them
+		    my $old_cid = $clusters->{$a2};
+		    while( my ($aid, $cid) = each %$clusters) {
+			if($cid eq $old_cid) {
+			    $clusters->{$aid} = $a1;
+			}
+		    }
+		    $merged_clusters->{$old_cid} = $a1;
+		    @new_aids = remove_element($old_cid, @new_aids);
 		} elsif(exists $clusters->{$a1}) {
 		    # this means $a1 was assigned a cluster earlier in this iteration 
 		    $clusters->{$a2} = $clusters->{$a1};
@@ -144,16 +159,33 @@ while(1) {
 		    }
 		    @new_aids = remove_element($a1, @new_aids);
 		}else {
-		    # both are original author ids, so create a new cluster id and assign to both
-		    my $merged_id = ++$max_id;
-		    $clusters->{$a1} = $merged_id;
-		    $clusters->{$a2} = $merged_id;
-		    if(!in_array(\@new_aids, $a1) || !in_array(\@new_aids, $a2)) {
-			print "chk6";
+		    # one of these might be an earlier cluster id that was reassigned
+		    if(!in_array(\@new_aids, $a1) && exists $merged_clusters->{$a1})  {
+			my $new_cid = $a1;
+			while(exists $merged_clusters->{$new_cid}) {
+			    $new_cid = $merged_clusters->{$new_cid};
+			}
+			$clusters->{$a2} = $new_cid;
+			@new_aids = remove_element($a2, @new_aids);
+		    } elsif(!in_array(\@new_aids, $a2) && exists $merged_clusters->{$a2})  {
+			my $new_cid = $a2;
+			while(exists $merged_clusters->{$new_cid}) {
+			    $new_cid = $merged_clusters->{$new_cid};
+			}
+			$clusters->{$a1} = $new_cid;
+			@new_aids = remove_element($a1, @new_aids);
+		    } else {
+			# both are original author ids, so create a new cluster id and assign to both
+			my $merged_id = ++$max_id;
+			$clusters->{$a1} = $merged_id;
+			$clusters->{$a2} = $merged_id;
+			if(!in_array(\@new_aids, $a1) || !in_array(\@new_aids, $a2)) {
+			    print "chk6";
+			}
+			@new_aids = remove_element($a1, @new_aids);
+			@new_aids = remove_element($a2, @new_aids);
+			push(@new_aids, $merged_id);
 		    }
-		    @new_aids = remove_element($a1, @new_aids);
-		    @new_aids = remove_element($a2, @new_aids);
-		    push(@new_aids, $merged_id);
 		}
 
 	    }
