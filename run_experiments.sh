@@ -15,7 +15,7 @@ base="./files";
 
 # do author hit time based matching
 
-#./find_hitting_time.pl $base/$1.graph $base/$1.data > $base/$1.hits
+#./find_commute_time.pl $base/$1.graph $base/$1.data > $base/$1.hits
 ./cluster_ht_based.pl $base/$1.hits $2 > $base/$1.hitclusts
 
 echo "Author Hitting time based matching:"

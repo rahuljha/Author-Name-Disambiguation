@@ -12,8 +12,7 @@ my $JC_CUTOFF = .5;
 my $BASE_DIR = "./files";
 # Read evaluation file for a single cluster and create complete graph
 # Print out in edge-edge format
-my $all_authors = "/home/rahuljha/author_name_normalization/OA_authors.txt";
-my $eval_dir = "/home/rahuljha/author_name_normalization/evaluation_data/Giles_DBLP/";
+my $eval_dir = "/data0/projects/fuse/author_disambiguation/evaluation_data/Giles_DBLP_trunc/";
 my %id_hash = ();
 
 my $aff_shingles = {};
@@ -27,6 +26,7 @@ my $key = shift;
 open GOLD, ">$BASE_DIR/$key.gold" or die $!;
 open GRAPH, ">$BASE_DIR/$key.graph" or die $!;
 open DATA, ">$BASE_DIR/$key.data" or die $!;
+open CAIDS, ">$BASE_DIR/$key.caids" or die $!;
 
 open READ_FILE, "$eval_dir/$key.txt" or die $!;
 
@@ -47,32 +47,47 @@ while(<READ_FILE>) {
     print GOLD "$curauth_id $cid\n";
 
     # add coauthors 
+    my $cur_coauths = {};
      foreach my $co_author_str (@coauthor_strs) {
 	 $co_author_str =~ s/^\s+//;
 	 $co_author_str =~ s/\s+$//;
-	 $co_author_str =~ m/(.*)\s+([a-zA-Z]+)$/;
-	 my $fname = $1;
-	 my $lname = $2;
- 	# add coauthor edge
+
+	 next if $co_author_str eq "";
+
+	 my ($fname, @lnames) = split(/\s+/, $co_author_str);
+	 
+	 my $lname = "";
+	 $lname = $lname." ".$_ foreach(@lnames);
+
+ 	# add coauthor edge    
 	 my $norm_coauth = get_normalized_author($lname, $fname);
 	 next if ($norm_coauth eq $key);
-	my $coauth_id = '';
-	if(exists $id_hash{$norm_coauth}) {
-	    $coauth_id = $id_hash{$norm_coauth};
-	} else {
-	    $coauth_id = $cnt;
-	    $cnt++;
-	}
-	$id_hash{$norm_coauth} = $coauth_id;
-	print GRAPH "$curauth_id === $coauth_id\n";
-
+	 my $coauth_id = '';
+	 if(exists $id_hash{$norm_coauth}) {
+	     $coauth_id = $id_hash{$norm_coauth};
+	 } else {
+	     $coauth_id = $cnt;
+	     $cnt++;
+	     print CAIDS "$coauth_id $co_author_str\n";
+	 }
+	 $id_hash{$norm_coauth} = $coauth_id;
+	 print GRAPH "$curauth_id === $coauth_id\n";
+	 $cur_coauths->{$coauth_id} = 1;
     }  
+
+    my @coauth_ids = sort {$a <=> $b} keys %$cur_coauths;
+    for(my $i = 0; $i < $#coauth_ids; $i++) {
+	for(my $j = $i+1; $j < $#coauth_ids; $j++) {
+	    print GRAPH $coauth_ids[$i]." === ".$coauth_ids[$j]."\n";
+	}
+    }
 }
 
 sub get_normalized_author {
     my $lname = shift;
     my $fname = shift;
-
+    
+    $lname =~ s/\s+//g;
     $fname = "" unless defined $fname;
 
     $fname =~ s/-/ /g;

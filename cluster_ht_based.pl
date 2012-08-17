@@ -38,6 +38,6 @@ while(<FILE>) {
     
 }
 
-foreach my $aid (keys %cids){
+foreach my $aid (each %cids){
     print $aid." ".$cids{$aid}."\n";
 }

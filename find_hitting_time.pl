@@ -10,8 +10,8 @@ open GRAPH, $graph_file or die $!;
 
 my $graph = {};
 
-my $MAX_ITER = 20;
-my $NUM_SAMPLES = 50;
+my $MAX_ITER = 10;
+my $NUM_SAMPLES = 10000;
 
 # read the undirected graph
 while(<GRAPH>) {
@@ -32,8 +32,8 @@ my @aids = `cat $data_file | awk -F " ::: " '{print \$1}'`;
 map(chomp($_), @aids);
 
 for(my $i = 0; $i <= $#aids; $i++) {
-    for(my $j = $i+1; $j <= $#aids; $j++) {
-
+    for(my $j = 0; $j <= $#aids; $j++) {
+	next if $i == $j;
 	# if(($aids[$i] eq "392" && $aids[$j] eq "404") || ($aids[$i] eq "404" && $aids[$j] eq "392")) {
 	#     print "here";
 	# }
@@ -55,7 +55,8 @@ sub get_sampled_hitting_time {
 
     my $aht = 0;
     for(my $i = 0; $i < $num_samples; $i++) {
-	$aht += get_hitting_time($a1, $a2, $graph, 1);
+	my $ht = get_hitting_time($a1, $a2, $graph, 0);
+	$aht += $ht;
     }
 
     return $aht/$num_samples;
@@ -67,33 +68,39 @@ sub get_hitting_time {
     my $graph = shift;
     my $iter = shift;
 
+    while(1) {
+	
 #    print "$source -> ";
 
-    if($source eq $target) {
-#	print "FOUND\n";
-	return 1;
-    } 
+	if($source eq $target) {
+#	print "FOUND [$target]\n";
+	    return $iter;
+	} 
 
-    if($iter > $MAX_ITER) {
+#    print " {$iter} ";
+
+	if($iter >= $MAX_ITER) {
 #	print "FAIL_MAXED\n";
-	return 1;
-    }
+	    return $MAX_ITER;
+	}
 
-    my @potential_hops = keys %{$graph->{$source}};
+	my @potential_hops = keys %{$graph->{$source}};
 
-    if($#potential_hops == -1) {
+	if($#potential_hops == -1) {
 #	print "FAIL_NOHOP\n";
-	return $MAX_ITER;
+	    return $MAX_ITER;
+	}
+
+	my $hop_weights = {};
+	foreach my $t (@potential_hops) {
+	    $hop_weights->{$t} = $graph->{$source}{$t};
+	}
+
+	my $hop = pick_weighted_random($hop_weights);
+	$source = $hop;
+	$iter++;
     }
 
-    my $hop_weights = {};
-    foreach my $t (@potential_hops) {
-	$hop_weights->{$t} = $graph->{$source}{$t};
-    }
-
-    my $hop = pick_weighted_random($hop_weights);
-
-    return 1 + get_hitting_time($hop, $target, $graph, $iter+1);
 }
 
 sub pick_weighted_random {

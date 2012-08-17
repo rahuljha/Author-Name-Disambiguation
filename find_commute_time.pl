@@ -58,12 +58,17 @@ sub get_sampled_hitting_time {
     my $num_samples = shift;
 
     my $aht = 0;
+#    my $cnt = 0;
     for(my $i = 0; $i < $num_samples; $i++) {
 	my $ht = get_hitting_time($a1, $a2, $graph, 0);
-	$aht += $ht;
+	# if($ht > 0) {
+	#     $aht += $ht;
+	#     $cnt++;
+	# }
     }
 
     return $aht/$num_samples;
+#    return $aht/$cnt;
 }
 
 sub get_hitting_time {
@@ -84,15 +89,17 @@ sub get_hitting_time {
     print " {$iter} " if $debug;
 
 	if($iter >= $MAX_ITER) {
-	print "FAIL_MAXED\n" if $debug;
+	    print "FAIL_MAXED\n" if $debug;
 	    return $MAX_ITER;
+#	    return 0;
 	}
 
 	my @potential_hops = keys %{$graph->{$source}};
 
 	if($#potential_hops == -1) {
-	print "FAIL_NOHOP\n" if $debug;
+	    print "FAIL_NOHOP\n" if $debug;
 	    return $MAX_ITER;
+#	    return 0;
 	}
 
 	# my $hop_weights = {};

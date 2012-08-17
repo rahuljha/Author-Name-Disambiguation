@@ -18,7 +18,7 @@ my $orig_graph = {};
 my $clusters = {};
 
 my $MAX_ITER = 10;
-my $NUM_SAMPLES = 100;
+my $NUM_SAMPLES = 1000;
 
 # read the undirected graph
 while(<GRAPH>) {
@@ -45,7 +45,7 @@ my $orig_aids = dclone(\@aids);
 
 my $iterations = 1;
 while(1) {
-    print "iteration: $iterations\n";
+    print "iteration: $iterations with cutoff $CUTOFF\n";
     my $max_id = find_max_id($cur_graph, \@aids);
     my $htimes = {};
     my $found_clusters = 0;
@@ -65,13 +65,14 @@ while(1) {
 
     my @new_aids = @{dclone \@aids};
 
+    open OUT_CTIMES, ">./files/$key.ctimes.$iterations" or die $!;
     for(my $i = 0; $i <= $#aids; $i++) {
 	for(my $j = $i+1; $j <= $#aids; $j++) {
 	    my $a1 = $aids[$i];
 	    my $a2 = $aids[$j];
 	    my $comm_time = $htimes->{$a1}{$a2} + $htimes->{$a2}{$a1};
+	    print OUT_CTIMES "$a1 $a2 $comm_time\n";
 	    if($comm_time < $CUTOFF) {
-
 		# merge the nodes
 		$found_clusters = 1;
 		if(exists $new_clusters->{$a1} && exists $new_clusters->{$a2}) {
@@ -104,9 +105,11 @@ while(1) {
 	    }
 	}
     }
+    close OUT_CTIMES;
     
     last if($found_clusters == 0);
-    $CUTOFF++;
+#    last if($CUTOFF >= 15);
+#    $CUTOFF += 0.5;
 
     #merge the new clusters to earlier ones
     
@@ -147,7 +150,6 @@ while(1) {
 sub print_clusters {
     $iterations = shift;
     open OUT_CLUSTERS, ">./files/$key.clust.$iterations" or die $!;
-
 # print out the clusters
     my $max_id = find_max_id($cur_graph, \@aids);
 
@@ -168,12 +170,18 @@ sub get_sampled_hitting_time {
     my $num_samples = shift;
 
     my $aht = 0;
+    my $cnt = 0;
     for(my $i = 0; $i < $num_samples; $i++) {
 	my $ht = get_hitting_time($a1, $a2, $graph, 0);
 	$aht += $ht;
+	# if($ht > 0) {
+	#     $cnt++;
+	#     $aht += $ht;
+	# }
     }
 
     return $aht/$num_samples;
+#    return $cnt > 0 ? $aht/$cnt : 100;
 }
 
 sub get_hitting_time {
@@ -196,6 +204,7 @@ sub get_hitting_time {
 	if($iter >= $MAX_ITER) {
 #	print "FAIL_MAXED\n";
 	    return $MAX_ITER;
+#	    return 0;
 	}
 
 	my $num_hops;
@@ -209,6 +218,7 @@ sub get_hitting_time {
 	if($num_hops == 0) {
 #	print "FAIL_NOHOP\n";
 	    return $MAX_ITER;
+#	    return 0;
 	}
 
 
