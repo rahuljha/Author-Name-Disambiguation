@@ -50,8 +50,6 @@ foreach my $aid (@aids) {
 
 open SIMS, ">".$sims_file or die $!;
 
-my @sims = ();
-
 for(my $i = 0; $i <= $#aids; $i++) {
     for(my $j = $i+1; $j <= $#aids; $j++) {
 	my $a1 = $aids[$i];
@@ -62,12 +60,12 @@ for(my $i = 0; $i <= $#aids; $i++) {
 	my $id2 = $id_map{$a2};
 
 	if(!defined $paths) { 
-	    push(@sims, -10);
 	    print SIMS "$id1 $id2 -10\n";
+	    print SIMS "$id2 $id1 -10\n";
 	} else {
 	    my $sim = compute_sim($paths);
 	    print SIMS "$id1 $id2 ".$sim."\n"; 
-	    push(@sims, $sim);
+	    print SIMS "$id2 $id1 ".$sim."\n"; 
 	}
     }
 }
